@@ -19,7 +19,7 @@ body{
     background-image:url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-color:hsl(225, 100%, 94%);
-    width: 1440px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@ body{
 }
 main{
     background-color: white;
-    width: 350px;
+    max-width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 15px;
